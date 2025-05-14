@@ -1,0 +1,27 @@
+#main{
+    background-color: aquamarine;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+#para{
+    background-color: rgb(194, 194, 132);
+    text-align: center;
+    color: red;
+}
+
+.vibhoo{
+    background-color: rgb(0, 47, 255);
+    text-align: center;
+    color: rgb(49, 8, 8);
+}
+h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.p1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

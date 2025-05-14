@@ -1,0 +1,18 @@
+
+/* universal selector */
+*{
+    background-color: rgb(18, 64, 64);
+}
+
+h3{
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+}
+
+/* group selector */
+h1, 
+h2{
+    color: blueviolet;
+    background-color: aquamarine;
+}

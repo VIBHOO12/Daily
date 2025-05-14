@@ -1,0 +1,29 @@
+.p1{
+    color: blue;
+    visibility: inherit;
+}
+.p1{
+    color: red;
+    visibility: collapse;
+}
+.main{
+    border: dashed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    /* width: 300px; */
+    max-width: 300px;
+    margin: auto;
+    height: auto;
+}
+
+.card{
+    background-color: aquamarine;
+    width: 80px;
+    height: 80px;
+    display: flex;
+
+    font-weight: bold;
+    margin: 5px;
+}

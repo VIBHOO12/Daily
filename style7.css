@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: bisque;
+  /* margin: 0; */
+  background-image: linear-gradient(red, yellow, blue);
+  position: relative;
+  border: 2px solid black;
+}
+
+.sun {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(yellow, orange, red);
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  padding: 30px;
+}
+
+.flag {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  background-image: linear-gradient(
+    rgb(232, 80, 25) 0%,
+    rgb(232, 80, 25) 30%,
+    white 30%,
+    white 60%,
+    green 60%,
+    green 100%
+  );
+}
+.wheel {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid blue;
+  margin-left: 190px;
+  position: absolute;
+  top: 155px;
+}
+
+.card1 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  background-image: repeating-linear-gradient(
+    red 0,
+    red 8%,
+    green 11%,
+    green 19%,
+    yellow 19%,
+    yellow 28%,
+    blue 29%,
+    blue 38%
+  );
+}
+.card2 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: repeating-linear-gradient(
+        240deg,
+      red 0,
+      red 8%,
+      green 11%,
+      green 19%,
+      yellow 19%,
+      yellow 28%,
+      blue 29%,
+      blue 38%
+    );
+  }
+.container1{
+    display: flex;
+}
+  .card3 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: radial-gradient(
+        circle,
+      red 0,
+      red 8%,
+      green 11%,
+      green 19%,
+      yellow 19%,
+      yellow 28%,
+      blue 29%,
+      blue 38%
+    );
+    
+  }
+  .card4 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: repeating-radial-gradient(
+        circle,
+      red 0,
+      red 8%,
+      green 11%,
+      green 19%,
+      yellow 19%,
+      yellow 28%,
+      blue 29%,
+      blue 38%
+    );
+    
+  }
+
+.container2{
+    display: flex;
+
+}
+.conic1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: conic-gradient(
+        
+      red 0,
+      red 8%,
+      green 11%,
+      green 19%,
+      yellow 19%,
+      yellow 28%,
+      blue 29%,
+      blue 38%
+    );
+    border-radius: 50%;
+}
+.conic2{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: repeating-conic-gradient(
+        at 40% 60%,
+      red 0,
+      red 10%,
+      green 10%,
+      green 20%,
+      yellow 20%,
+      yellow 30%,
+      blue 30%,
+      blue 40%
+    );
+    border-radius: 50%;
+}
