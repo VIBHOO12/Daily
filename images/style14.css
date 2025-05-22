@@ -1,0 +1,22 @@
+.h1{
+   text-align: center;
+   text-decoration: underline;
+}
+.main{
+    text-align: center;
+    background-color: aqua;
+    margin-top: 50px;
+}
+.h2{
+    color: blue;
+    letter-spacing: 20px;
+}
+
+.h3{
+    color: salmon;
+    letter-spacing: 3px;
+}
+.h4{
+    color: salmon;
+    letter-spacing: -1px;
+}
